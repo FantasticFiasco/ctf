@@ -26,7 +26,7 @@ function encrypt(char, caesar) {
 }
 
 if (process.argv.length != 3) {
-    console.log('Usage: node ceasar.js <plain or cipher text>')
+    console.log('Usage: node caesar.js <plain or cipher text>')
     process.exit(1)
 }
 
