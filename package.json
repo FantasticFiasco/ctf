@@ -1,0 +1,11 @@
+{
+  "name": "ctf",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/FantasticFiasco/ctf.git",
+  "author": "FantasticFiasco <mattias.kindborg@gmail.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "prettier": "^2.2.1"
+  }
+}
