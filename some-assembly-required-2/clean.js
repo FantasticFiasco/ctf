@@ -1,6 +1,7 @@
 const fetch = require('node-fetch')
 
 const strings = [
+    '615361geljRK',
     'copy_char',
     'value',
     '207aLjBod',
@@ -24,7 +25,6 @@ const strings = [
     'getElementById',
     '1jIrMBu',
     'input',
-    '615361geljRK',
 ]
 
 const getString = function (index) {
@@ -32,26 +32,6 @@ const getString = function (index) {
     let string = strings[index]
     return string
 }
-
-;(function (_0x12fd07, _0x4e9d05) {
-    const _0x4f7b75 = getString
-    while (!![]) {
-        try {
-            const _0x1bb902 =
-                -parseInt(_0x4f7b75(0xc8)) * -parseInt(_0x4f7b75(0xc9)) +
-                -parseInt(_0x4f7b75(0xcd)) +
-                parseInt(_0x4f7b75(0xcf)) +
-                parseInt(_0x4f7b75(0xc3)) +
-                -parseInt(_0x4f7b75(0xc6)) * parseInt(_0x4f7b75(0xd4)) +
-                parseInt(_0x4f7b75(0xcb)) +
-                -parseInt(_0x4f7b75(0xd9)) * parseInt(_0x4f7b75(0xc7))
-            if (_0x1bb902 === _0x4e9d05) break
-            else _0x12fd07['push'](_0x12fd07['shift']())
-        } catch (_0x4f8a) {
-            _0x12fd07['push'](_0x12fd07['shift']())
-        }
-    }
-})(strings, 0x4bb06)
 
 let myExports
 ;(async () => {
