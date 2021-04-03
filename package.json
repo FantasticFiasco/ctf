@@ -6,6 +6,7 @@
   "author": "FantasticFiasco <mattias.kindborg@gmail.com>",
   "license": "Apache-2.0",
   "dependencies": {
+    "node-fetch": "^2.6.1",
     "prettier": "^2.2.1"
   }
 }
