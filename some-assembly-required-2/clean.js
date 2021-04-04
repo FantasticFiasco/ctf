@@ -16,5 +16,10 @@ const fetch = require('node-fetch')
     }
 
     webAssemblyExports.copy_char(0, password.length)
-    webAssemblyExports.check_flag() == 1 ? console.log('Correct!') : console.log('Incorrect!')
+
+    if (webAssemblyExports.check_flag() == 1) {
+        console.log('Correct!')
+    } else {
+        console.log('Incorrect!')
+    }
 })()
