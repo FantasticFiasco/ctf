@@ -1,7 +1,5 @@
 const fetch = require('node-fetch')
 
-const chars = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
-
 ;(async () => {
     const response = await fetch('http://mercury.picoctf.net:61778/aD8SvhyVkb')
     const arrayBuffer = await response.arrayBuffer()
