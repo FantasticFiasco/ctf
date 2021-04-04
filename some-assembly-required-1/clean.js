@@ -1,7 +1,5 @@
-const fetch = require('node-fetch')
-
 ;(async () => {
-    const response = await fetch('http://mercury.picoctf.net:55336/JIFxzHyW8W')
+    const response = await fetch('./JIFxzHyW8W')
     const arrayBuffer = await response.arrayBuffer()
     const webAssembly = await WebAssembly.instantiate(arrayBuffer, importObject)
 
